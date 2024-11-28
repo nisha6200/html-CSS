@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>insta template</title>
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <style>
+        *
+        {
+            margin:0px
+        }
+        .container
+        {
+            height: 600px;
+            width: 600px;
+            margin: auto;
+            background-image:linear-gradient(145deg,rgb(58, 134, 134),cyan,rgb(6, 169, 169)) ;
+            border: 2px solid black;
+            
+
+        }
+        .heading
+        {
+            display: flex;
+            justify-content: space-between;
+            font-style: italic; 
+        }
+        .one{
+            background-color: white;
+            color: black;
+            border-end-end-radius:30px;
+            width: 120px;    
+        }
+        .two{
+            background-color: white;
+            color: black;
+            border-end-start-radius: 30px;
+            width: 120px;
+            
+        }
+        .one::first-letter
+        {
+            color: orange;
+        }
+        .two::first-letter
+        {
+            color: orange;
+        }
+        span{
+            padding-left: 20px;
+            font-size: 10px;
+            }
+        h2{
+            padding-left: 10px;
+        }
+        .body-container
+        {
+            display: grid;
+            grid-template-columns: repeat(2,auto);
+            margin-top: 40px;
+            margin-left: 30px;
+            
+        }
+        .items
+        {
+            gap: 20px;
+            
+        }
+        .image
+        {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            
+            border:6px solid white;
+
+        }
+        .oneee
+        {
+            grid-column: 1/2;
+            grid-row: 1/3;
+            
+        }
+        .twoo
+        {
+            grid-column: 2/3;
+            grid-row: 1/3;
+        }
+        .three
+        {
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        .four
+        {
+            grid-row: 3/4;
+            grid-column: 1/3;
+        }
+        .five
+        {
+            grid-row: 4/5;
+            grid-column: 1/3;
+            padding: 4px;
+            margin-top: 20px;
+        }
+        footer
+        {
+            margin-top: 53px;
+            padding: 10px;
+            text-align: center;
+            word-spacing: 7px;
+            background-color: white;
+            color:black
+            
+            
+        }
+        .m{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <div class="one">
+                <h2>Pyspiders</h2>
+                <span >MARATHAHALLI</span>
+            </div>
+            <div class="two">
+                <h2>Pyspiders</h2>
+                <span>MARATHAHALLI</span>
+            </div>
+        </div>
+        <div class="body-container">
+            <div class="items oneee"><h1 style="font-family: Brush Script MT; letter-spacing: 2px; font-size: 50px;">Congraturations!</h1>
+                <div class="m"><i class="fa-solid fa-user"></i> NISHA KUMARI</div>
+                <div class="m"><i class="fa-solid fa-graduation-cap"></i> BTECH/CSE</div>
+                <div class="m"><i class="fa-regular fa-calendar-days"></i> YOP: 2024</div>
+                <div class="m"><i class="fa-solid fa-medal"></i> Python Full Stack</div>
+            </div>
+            <div class="items twoo"><img src="./Nisha kumari photo.jpg" alt="" class="image"></div>
+            <div class="items four">
+                <h1 style="margin-left: 40px;">PACKAGE: 14.5 LPA</h1>
+            </div>
+            <div class="items five">
+                <h4 style="text-decoration: underline;">TESTIMONIAL:</h4>
+                <P style="margin-top: 10px; padding: 10px;">My name is Nisha kumari i joined in pyspider july 2024.I am very happy to say...finally I got the job..Thank you very much to <b>Jyothsna Ma'am</b>, <b> Kishore Sir </b> and <b>Dhruva Sir</b>, especially thanks to <b>Harshad Sir</b>  who always motivates us in the class and presented class was very effective for me as well as mock is also very important. </P>
+            </div>
+            
+        </div>
+        <footer>
+            <div class="items foot">
+                CONTACT AT MANASA/DIVYA: 9611100311/9606094019
+            </div>
+        </footer>
+    </div>
+    
+    
+</body>
+</html>
